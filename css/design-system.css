@@ -1,0 +1,136 @@
+:root {
+  /* Colors */
+  /* Primary */
+  --color-purple-50: hsl(260, 100%, 95%); /* #EDE4FF */
+  --color-purple-300: hsl(
+    264,
+    82%,
+    70%
+  ); /* #A775F1 - HSL from image, matches HEX */
+  --color-purple-500: hsl(263, 55%, 52%); /* #733FC8 */
+
+  /* Neutral */
+  --color-white: hsl(0, 0%, 100%); /* #FFFFFF */
+  --color-grey-100: hsl(214, 17%, 92%); /* #E7EAEE */
+  --color-grey-200: hsl(0, 0%, 81%); /* #CFCFCF */
+  --color-grey-400: hsl(224, 10%, 45%); /* #676D7E */
+  --color-grey-500: hsl(217, 19%, 35%); /* #48556A */
+  --color-dark-blue: hsl(219, 29%, 14%); /* #19202D */
+  --color-black: hsl(0, 0%, 7%); /* #121212 */
+
+  --font-family-main: "Barlow Semi Condensed", sans-serif;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  --font-size-body: 13px;
+
+  --space-50: 4px;
+  --space-100: 8px;
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-400: 32px;
+  --space-500: 40px;
+}
+
+body {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-medium); /* Default to medium */
+  /* Consider adding a base line-height and text color for the body */
+  /* line-height: 1.5; */
+  /* color: var(--color-grey-500); */
+}
+
+.text-preset-1 {
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-semibold);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-medium);
+  font-size: 13px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+
+.text-preset-3 {
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-medium);
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+
+.text-preset-4 {
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-medium);
+  font-size: 11px;
+  line-height: 1.1;
+  letter-spacing: 0px;
+}
+
+.text-color-purple-50 {
+  color: var(--color-purple-50);
+}
+.text-color-purple-300 {
+  color: var(--color-purple-300);
+}
+.text-color-purple-500 {
+  color: var(--color-purple-500);
+}
+.text-color-white {
+  color: var(--color-white);
+}
+.text-color-grey-100 {
+  color: var(--color-grey-100);
+}
+.text-color-grey-200 {
+  color: var(--color-grey-200);
+}
+.text-color-grey-400 {
+  color: var(--color-grey-400);
+}
+.text-color-grey-500 {
+  color: var(--color-grey-500);
+}
+.text-color-dark-blue {
+  color: var(--color-dark-blue);
+}
+.text-color-black {
+  color: var(--color-black);
+}
+
+.bg-color-purple-50 {
+  background-color: var(--color-purple-50);
+}
+.bg-color-purple-300 {
+  background-color: var(--color-purple-300);
+}
+.bg-color-purple-500 {
+  background-color: var(--color-purple-500);
+}
+.bg-color-white {
+  background-color: var(--color-white);
+}
+.bg-color-grey-100 {
+  background-color: var(--color-grey-100);
+}
+.bg-color-grey-200 {
+  background-color: var(--color-grey-200);
+}
+.bg-color-grey-400 {
+  background-color: var(--color-grey-400);
+}
+.bg-color-grey-500 {
+  background-color: var(--color-grey-500);
+}
+.bg-color-dark-blue {
+  background-color: var(--color-dark-blue);
+}
+.bg-color-black {
+  background-color: var(--color-black);
+}
